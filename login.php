@@ -5,6 +5,6 @@ fwrite($handle, $data);
 $new_data = "\n".'New data line 2';
 fwrite($handle, $new_data);
 fclose($handle);*/
-echo $_POST["username"];
-echo $_POST["password"];
+//echo $_POST["username"];
+//echo $_POST["password"];
 ?>
