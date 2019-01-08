@@ -4,5 +4,4 @@ $data = 'New data line 1';
 fwrite($handle, $data);
 $new_data = "\n".'New data line 2';
 fwrite($handle, $new_data);
-
-https://davidwalsh.name/basic-php-file-handling-create-open-read-write-append-close-delete
+fclose($handle);
